@@ -72,7 +72,16 @@
 				width: 100%;
 			}
 		}
-
+		&.maincircle {
+			display: block;
+			margin: (_size(element-margin) * 1.25) 0;
+			img {
+				margin-left: auto;
+				margin-right: auto;
+				width: 50%;
+				border-radius: 50%;
+			}
+		}
 		@include breakpoint(small) {
 			&.main {
 				margin: (_size(element-margin) * 1) 0;

@@ -14,30 +14,47 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Intro</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
+          <h2 className="major">About</h2>
+          <span className="image maincircle"><img src={pic01} alt="" /></span>
           <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
+          <h2 className="major">Classes</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <p>At Active Barre studio we offer the following classes:</p>
+          <h4>Activate - 45 mins</h4>
+          <p>Ullamco occaecat veniam amet minim dolore culpa veniam adipisicing sint velit reprehenderit qui ipsum consequat. Do esse dolor fugiat ipsum. Non nulla labore nulla sint nisi dolore cupidatat nostrud et. Consequat ut et non mollit quis aliquip sit elit sunt. Nostrud reprehenderit id laborum laboris mollit id consequat amet laboris laborum dolore deserunt id eiusmod.</p>
+          <h4>Barre attack - 45 mins</h4>
+          <p>Nulla do do id eu anim elit commodo. Voluptate ad et minim consequat do pariatur ad aliquip Lorem aliqua sit eu reprehenderit ullamco. Veniam ut minim id fugiat labore ex ad cupidatat pariatur.</p>
+          <h4>Power Barre - 30 mins</h4>
+          <p>Dolor excepteur amet mollit cupidatat voluptate pariatur consequat incididunt veniam. Sit ea ullamco aliqua officia tempor duis aliqua voluptate tempor. Do aute sint dolor est non adipisicing nisi. Dolore id ipsum anim esse ad esse cillum reprehenderit incididunt.</p>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
+          <h2 className="major">Time Table</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <h2>Monday</h2>
+          <p>9:15 - 10:00 AM | Active</p>
+          <p>1:00 - 1:30 PM | Power Barre (lunch break)</p>
+          <h2>Tuesday</h2>
+          <p>4:45 - 5:30 PM | Barre Attack</p>
+          <p>6:00 - 6:45 PM | Barre Attack</p>
+          <h2>Wednesday</h2>
+          <p>9:15 - 10:00 AM | Active</p>
+          <h2>Thursday</h2>
+          <p>4:45 - 5:30 PM | Barre Attack</p>
+          <p>6:00 - 6:45 PM | Barre Attack</p>
+          <h2>Friday</h2>
+          <p>More Classes coming soon</p>
           {close}
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Not A Contact</h2>
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
