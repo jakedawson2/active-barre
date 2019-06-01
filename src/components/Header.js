@@ -17,9 +17,11 @@ const Header = (props) => (
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Classes</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Time Table</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="javascript:;" onClick={() => { props.onOpenArticle('studio') }}>Studio</a></li>
+                <li><a href="javascript:;" onClick={() => { props.onOpenArticle('work') }}>Classes</a></li>
+                <li><a href="javascript:;" onClick={() => { props.onOpenArticle('about') }}>Time Table</a></li>
+                <li><a href="javascript:;" onClick={() => { props.onOpenArticle('contact') }}>Contact</a></li>
+                
             </ul>
         </nav>
     </header>

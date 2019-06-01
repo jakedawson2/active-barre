@@ -53,6 +53,19 @@ class Main extends React.Component {
           {close}
         </article>
 
+        <article id="work" className={`${this.props.article === 'studio' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+          <h2 className="major">Studio</h2>
+          <span className="image main"><img src={pic02} alt="" /></span>
+          <p>At Active Barre studio we offer the following classes:</p>
+          <h4>Activate - 45 mins</h4>
+          <p>Ullamco occaecat veniam amet minim dolore culpa veniam adipisicing sint velit reprehenderit qui ipsum consequat. Do esse dolor fugiat ipsum. Non nulla labore nulla sint nisi dolore cupidatat nostrud et. Consequat ut et non mollit quis aliquip sit elit sunt. Nostrud reprehenderit id laborum laboris mollit id consequat amet laboris laborum dolore deserunt id eiusmod.</p>
+          <h4>Barre attack - 45 mins</h4>
+          <p>Nulla do do id eu anim elit commodo. Voluptate ad et minim consequat do pariatur ad aliquip Lorem aliqua sit eu reprehenderit ullamco. Veniam ut minim id fugiat labore ex ad cupidatat pariatur.</p>
+          <h4>Power Barre - 30 mins</h4>
+          <p>Dolor excepteur amet mollit cupidatat voluptate pariatur consequat incididunt veniam. Sit ea ullamco aliqua officia tempor duis aliqua voluptate tempor. Do aute sint dolor est non adipisicing nisi. Dolore id ipsum anim esse ad esse cillum reprehenderit incididunt.</p>
+          {close}
+        </article>
+
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Not A Contact</h2>
           <form method="post" action="#">
