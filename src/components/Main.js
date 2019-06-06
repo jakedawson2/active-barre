@@ -16,21 +16,29 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image maincircle"><img src={pic01} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <p>Hi, my name is Wendie Dawson.</p>
+          <p>It has been a dream of mine for a very long time to open a beautiful Barre/Fitness studio in the Manning, and I'm so excited that it is finally here!</p>
+          <p>I studied ballet and gymnastics, became a qualified and registered (Fitness Australia) Fitness Proffestional in my early 20's.</p>
+          <p>I love working in the fitness industry and have always had a passion to see people improve their health and total wellbeing through excercise.</p>
+          <p>I have been teaching Barre Attack now for 3 years and find the combination of Barre, Pilates and fitness is fantastic for getting results!</p>
+          <p>People leave happy and energised and feel improvements in strength, posture and flexibility within the first couple of lessons.</p>
+          <p>Come and try a class, its addictive</p>
+          <h4>See you at the Barre</h4>
+          <h4>Wendie Dawson</h4>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Classes</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>At Active Barre studio we offer the following classes:</p>
-          <h4>Activate - 45 mins</h4>
-          <p>Ullamco occaecat veniam amet minim dolore culpa veniam adipisicing sint velit reprehenderit qui ipsum consequat. Do esse dolor fugiat ipsum. Non nulla labore nulla sint nisi dolore cupidatat nostrud et. Consequat ut et non mollit quis aliquip sit elit sunt. Nostrud reprehenderit id laborum laboris mollit id consequat amet laboris laborum dolore deserunt id eiusmod.</p>
-          <h4>Barre attack - 45 mins</h4>
-          <p>Nulla do do id eu anim elit commodo. Voluptate ad et minim consequat do pariatur ad aliquip Lorem aliqua sit eu reprehenderit ullamco. Veniam ut minim id fugiat labore ex ad cupidatat pariatur.</p>
-          <h4>Power Barre - 30 mins</h4>
-          <p>Dolor excepteur amet mollit cupidatat voluptate pariatur consequat incididunt veniam. Sit ea ullamco aliqua officia tempor duis aliqua voluptate tempor. Do aute sint dolor est non adipisicing nisi. Dolore id ipsum anim esse ad esse cillum reprehenderit incididunt.</p>
+        <p>At Active Barre studio we offer the following classes:</p>
+        <h3>Activate - 45 mins - Suitable for all fitness levels</h3>
+        <p>Is a great intro to the combination of barre and pilates mat work. With a flowing and fun format, it is great for strengthening the whole body, improving posture, balance and flexability.</p>
+        <h3>Barre attack - 45 mins - Suitable for all fitness levels</h3>
+        <p>Is an energising and fast paced total body workout that fuses pilates and ballet barre excercises with short cardio intervals.</p>
+        <p>This class is excellent for overall fitness, torching calories and increasing energy levels.</p>
+        <h3>Power Barre - 30 mins - Suitable for all fitness levels</h3>
+        <p>Quick hit of activity to get you through the rest of your workday and leave you feeling amazing, refreshed ready to tackle any challenges ahead.</p>
           {close}
         </article>
 
@@ -58,9 +66,12 @@ class Main extends React.Component {
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>At Active Barre studio we offer the following classes:</p>
           <h4>Activate - 45 mins</h4>
-          <p>Ullamco occaecat veniam amet minim dolore culpa veniam adipisicing sint velit reprehenderit qui ipsum consequat. Do esse dolor fugiat ipsum. Non nulla labore nulla sint nisi dolore cupidatat nostrud et. Consequat ut et non mollit quis aliquip sit elit sunt. Nostrud reprehenderit id laborum laboris mollit id consequat amet laboris laborum dolore deserunt id eiusmod.</p>
+          <h4>Suitable for all fitness levels</h4>
+          <p>Is a great intro to the combination of barre and pilates mat work</p>
           <h4>Barre attack - 45 mins</h4>
-          <p>Nulla do do id eu anim elit commodo. Voluptate ad et minim consequat do pariatur ad aliquip Lorem aliqua sit eu reprehenderit ullamco. Veniam ut minim id fugiat labore ex ad cupidatat pariatur.</p>
+          <h4>Suitable for all fitness levels</h4>
+          <p>Is an energising and fast paced total body workout that fuses pilates and ballet barre excercises with short cardio intervals.</p>
+          <p>This class is excellent for overall fitness, torching calories and increasing energy levels.</p>
           <h4>Power Barre - 30 mins</h4>
           <p>Dolor excepteur amet mollit cupidatat voluptate pariatur consequat incididunt veniam. Sit ea ullamco aliqua officia tempor duis aliqua voluptate tempor. Do aute sint dolor est non adipisicing nisi. Dolore id ipsum anim esse ad esse cillum reprehenderit incididunt.</p>
           {close}
