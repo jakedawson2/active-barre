@@ -1,13 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import Pics from './Gallery.js'
+
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
+import gallery1 from '../images/studio_gallery/IMG_1103.jpg'
+import gallery2 from '../images/studio_gallery/IMG_1104.jpg'
+import gallery3 from '../images/studio_gallery/IMG_1105.png'
+
+import Gallery from './Gallery'
+
 class Main extends React.Component {
   render() {
-
     let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
 
     return (
@@ -35,7 +42,7 @@ class Main extends React.Component {
         <h3>Activate - 45 mins - Suitable for all fitness levels</h3>
         <p>Is a great intro to the combination of barre and pilates mat work. With a flowing and fun format, it is great for strengthening the whole body, improving posture, balance and flexability.</p>
         <h3>Barre attack - 45 mins - Suitable for all fitness levels</h3>
-        <p>Is an energising and fast paced total body workout that fuses pilates and ballet barre excercises with short cardio intervals.</p>
+        <p>Is an energising and fast paced total body workout that fuses pilates and ballet barre exercises with short cardio intervals.</p>
         <p>This class is excellent for overall fitness, torching calories and increasing energy levels.</p>
         <h3>Power Barre - 30 mins - Suitable for all fitness levels</h3>
         <p>Quick hit of activity to get you through the rest of your workday and leave you feeling amazing, refreshed ready to tackle any challenges ahead.</p>
@@ -43,16 +50,16 @@ class Main extends React.Component {
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Time Table</h2>
+          <h2 className="major">Timetable</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <h2>Monday</h2>
-          <p>9:15 - 10:00 AM | Active</p>
+          <p>9:15 - 10:00 AM | Activate</p>
           <p>1:00 - 1:30 PM | Power Barre (lunch break)</p>
           <h2>Tuesday</h2>
           <p>4:45 - 5:30 PM | Barre Attack</p>
           <p>6:00 - 6:45 PM | Barre Attack</p>
           <h2>Wednesday</h2>
-          <p>9:15 - 10:00 AM | Active</p>
+          <p>9:15 - 10:00 AM | Activate</p>
           <h2>Thursday</h2>
           <p>4:45 - 5:30 PM | Barre Attack</p>
           <p>6:00 - 6:45 PM | Barre Attack</p>
@@ -63,17 +70,10 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'studio' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Studio</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>At Active Barre studio we offer the following classes:</p>
-          <h4>Activate - 45 mins</h4>
-          <h4>Suitable for all fitness levels</h4>
-          <p>Is a great intro to the combination of barre and pilates mat work</p>
-          <h4>Barre attack - 45 mins</h4>
-          <h4>Suitable for all fitness levels</h4>
-          <p>Is an energising and fast paced total body workout that fuses pilates and ballet barre excercises with short cardio intervals.</p>
-          <p>This class is excellent for overall fitness, torching calories and increasing energy levels.</p>
-          <h4>Power Barre - 30 mins</h4>
-          <p>Dolor excepteur amet mollit cupidatat voluptate pariatur consequat incididunt veniam. Sit ea ullamco aliqua officia tempor duis aliqua voluptate tempor. Do aute sint dolor est non adipisicing nisi. Dolore id ipsum anim esse ad esse cillum reprehenderit incididunt.</p>
+          {/* <span className="image main"><img src={gallery1} alt="" /></span>
+          <span className="image main"><img src={gallery2} alt="" /></span>
+          <span className="image main"><img src={gallery3} alt="" /></span> */}
+          <Pics />
           {close}
         </article>
 
