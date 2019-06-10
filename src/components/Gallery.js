@@ -8,7 +8,7 @@ import '../assets/scss/gallery.scss'
 class App extends Component {
     render() {
         return (
-            <div class="container">
+    <div class="container">
 	<div class="top">
     	<ul>
         	<li><a href="#img_1"><img src={image1} /></a></li>
@@ -30,7 +30,10 @@ class App extends Component {
         <a href="#_7" class="lightbox trans" id="img_7"><img src="https://image.freepik.com/free-photo/shiny-lights_385-19321244.jpg"/></a>
         <a href="#_8" class="lightbox trans" id="img_8"><img src="https://image.freepik.com/free-photo/skyscraper-with-clouds-reflection_23-10.jpg"/></a>
         <a href="#_9" class="lightbox trans" id="img_9"><img src="https://image.freepik.com/free-photo/foggy-pine-forest_426-19323742.jpg"/></a>
-    </div>
+                </div>
+                <div class="videoWrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0LIKUIUFUZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 </div>
         );
     }
