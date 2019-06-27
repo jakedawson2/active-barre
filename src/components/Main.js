@@ -7,9 +7,6 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
-import gallery1 from '../images/studio_gallery/IMG_1103.jpg'
-import gallery2 from '../images/studio_gallery/IMG_1104.jpg'
-import gallery3 from '../images/studio_gallery/IMG_1105.png'
 
 import Gallery from './Gallery'
 
@@ -25,7 +22,7 @@ class Main extends React.Component {
           <span className="image maincircle"><img src={pic01} alt="" /></span>
           <p>Hi, my name is Wendie Dawson.</p>
           <p>It has been a dream of mine for a very long time to open a beautiful Barre/Fitness studio in the Manning, and I'm so excited that it is finally here!</p>
-          <p>I studied ballet and gymnastics, became a qualified and registered (Fitness Australia) Fitness Proffestional in my early 20's.</p>
+          <p>I studied ballet and gymnastics, became a qualified and registered (Fitness Australia) Fitness Professional in my early 20's.</p>
           <p>I love working in the fitness industry and have always had a passion to see people improve their health and total wellbeing through excercise.</p>
           <p>I have been teaching Barre Attack now for 3 years and find the combination of Barre, Pilates and fitness is fantastic for getting results!</p>
           <p>People leave happy and energised and feel improvements in strength, posture and flexibility within the first couple of lessons.</p>
@@ -54,15 +51,14 @@ class Main extends React.Component {
           <span className="image main"><img src={pic03} alt="" /></span>
           <h2>Monday</h2>
           <p>9:15 - 10:00 AM | Activate</p>
-          <p>1:00 - 1:30 PM | Power Barre (lunch break)</p>
+          <p>10:30 - 1:00 pm | (30 min private tuition $15 SPECIAL MUST BOOK)</p>
           <h2>Tuesday</h2>
           <p>4:45 - 5:30 PM | Barre Attack</p>
-          <p>6:00 - 6:45 PM | Barre Attack</p>
+          <p>5:45 - 6:30 PM | Barre Attack</p>
           <h2>Wednesday</h2>
           <p>9:15 - 10:00 AM | Activate</p>
           <h2>Thursday</h2>
           <p>4:45 - 5:30 PM | Barre Attack</p>
-          <p>6:00 - 6:45 PM | Barre Attack</p>
           <h2>Friday</h2>
           <p>More Classes coming soon</p>
           {close}

@@ -11,7 +11,9 @@ const Header = (props) => (
             <div className="inner">
                 <h1>Active Barre Studio</h1>
                 <h4>BARRE | PILATES | CARDIO</h4>
+                <h3>5/23 Pulteney Street Taree NSW</h3>
                 <p>Taree's first boutique studio offering a fusion of Barre, Pilates and fitness.</p>
+                
             </div>
         </div>
         <nav>
