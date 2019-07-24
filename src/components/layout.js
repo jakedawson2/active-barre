@@ -41,8 +41,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Active Barre Studio is Taree\'s first boutique studio specialising in Barre attack. Classes taught by Wendie Dawson offer a unique fusion of Barre, Pilates and fitness.  Active Barre Studio is located on Pulteney street in the Heart of Taree' },
+              { name: 'keywords', content: 'active barre, Taree fitness, Dance studio, fitness class, Barre Attack, ' },
             ]}
           >
             <html lang="en" />

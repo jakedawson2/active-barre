@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import image1 from '../images/studio_gallery/IMG_1105.png'
-import image2 from '../images/studio_gallery/IMG_1103.jpg'
+import image1 from '../images/studio_gallery/IMG_1105.jpg'
+import image2 from '../images/studio_gallery/wendie-active-barre.gif'
 import image3 from '../images/studio_gallery/IMG_1104.jpg'
 import image4 from '../images/studio_gallery/Activebarre.jpg'
 import image5 from '../images/studio_gallery/activebarre-wendie.jpg'

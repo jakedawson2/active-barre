@@ -8,8 +8,6 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 
-import Gallery from './Gallery'
-
 class Main extends React.Component {
   render() {
     let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
@@ -41,14 +39,13 @@ class Main extends React.Component {
         <h3>Barre attack - 45 mins - Suitable for all fitness levels</h3>
         <p>Is an energising and fast paced total body workout that fuses pilates and ballet barre exercises with short cardio intervals.</p>
         <p>This class is excellent for overall fitness, torching calories and increasing energy levels.</p>
-        <h3>Power Barre - 30 mins - Suitable for all fitness levels</h3>
-        <p>Quick hit of activity to get you through the rest of your workday and leave you feeling amazing, refreshed ready to tackle any challenges ahead.</p>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Timetable</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
+          {/* <span className="image main"><img src={pic03} alt="" /></span> */}
+          <h3 className="major center">Class cost: $15</h3>
           <h2>Monday</h2>
           <p>9:15 - 10:00 AM | Activate</p>
           <p>10:30 - 1:00 pm | (30 min private tuition $15 SPECIAL MUST BOOK)</p>
@@ -57,6 +54,7 @@ class Main extends React.Component {
           <p>5:45 - 6:30 PM | Barre Attack</p>
           <h2>Wednesday</h2>
           <p>9:15 - 10:00 AM | Activate</p>
+          <p>5:15 - 6:00 PM | Barre Attack</p>
           <h2>Thursday</h2>
           <p>4:45 - 5:30 PM | Barre Attack</p>
           <h2>Friday</h2>
@@ -95,10 +93,8 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
-            <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://www.facebook.com/activebarre/" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/activebarre/?hl=en" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
           </ul>
           {close}
         </article>
