@@ -41,7 +41,8 @@ body{background-color: black;}
 	width: 33.3%;
 	height: 33.3%;
     overflow: hidden;
-    padding: 0px;
+	padding: 0px;
+	max-height:100%;
 }
 .top ul li::before
 {
