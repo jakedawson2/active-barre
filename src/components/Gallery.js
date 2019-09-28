@@ -39,7 +39,7 @@ class App extends Component {
         <a href="#_9" class="lightbox trans" id="img_9"><img src={image9}/></a>
                 </div>
                 <div class="videoWrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/0LIKUIUFUZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ccM_Cp7vXFU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreengats"></iframe>
                 </div>
 </div>
         );
