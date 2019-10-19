@@ -61,7 +61,7 @@ class Main extends React.Component {
               10:30 - 1:00 PM
             </div> 
             <div className="class-text">
-              30 Min Privates
+              30 M Privates
             </div>
             <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11735655">Book Now</a></button>
           </div>
@@ -102,7 +102,7 @@ class Main extends React.Component {
             <div className="class-text">
               Barre Attack
             </div>
-            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11734565">Book Now</a></button>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11740682">Book Now</a></button>
           </div>
           <h2>Thursday</h2>
           <div className="class-container">
@@ -112,7 +112,7 @@ class Main extends React.Component {
             <div className="class-text">
               Barre Attack
             </div>
-            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11734565">Book Now</a></button>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11740579">Book Now</a></button>
           </div>
           <h2>Friday</h2>
           <div className="class-container">
