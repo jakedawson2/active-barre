@@ -142,3 +142,42 @@ body{background-color: black;}
 		width:50%
 	}
 }
+.class-container{
+	border: 1px solid white;
+	display: flex;
+	padding: 10px 15px;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1.5em;
+	height: 65px;
+}
+.class-container:hover{
+	background-color: rgba(255,255,255,0.10);
+}
+.class-text{
+	font-size: 1.5em ;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+.class-time{
+	font-weight: 600;
+}
+.class-container>div>p{
+	margin: 0;
+}
+@media screen and (max-width:525px) {
+	.class-container{
+		padding: 5px;
+	}
+	.class-text{
+		font-size: 1.2em;
+	}
+	.class-time{
+		font-weight: 500;
+	}
+	.class-container>button{
+		padding: 0 10px;
+	}
+
+}

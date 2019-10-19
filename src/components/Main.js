@@ -47,18 +47,80 @@ class Main extends React.Component {
           {/* <span className="image main"><img src={pic03} alt="" /></span> */}
           <h3 className="major center">Class cost: $15</h3>
           <h2>Monday</h2>
-          <p>9:15 - 10:00 AM | Activate</p>
-          <p>10:30 - 1:00 pm | (30 min private tuition $15 SPECIAL MUST BOOK)</p>
+          <div className="class-container">
+            <div className="class-time">
+              9:15 - 10:00 AM
+            </div> 
+            <div className="class-text">
+              Activate
+            </div>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11734502">Book Now</a></button>
+          </div>
+          <div className="class-container">
+            <div className="class-time">
+              10:30 - 1:00 PM
+            </div> 
+            <div className="class-text">
+              30 Min Privates
+            </div>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11735655">Book Now</a></button>
+          </div>
           <h2>Tuesday</h2>
-          <p>4:45 - 5:30 PM | Barre Attack</p>
-          <p>5:45 - 6:30 PM | Barre Attack</p>
+          <div className="class-container">
+            <div className="class-time">
+              4:45 - 5:30 PM
+            </div> 
+            <div className="class-text">
+              Barre Attack
+            </div>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11736762">Book Now</a></button>
+          </div>
+          <div className="class-container">
+            <div className="class-time">
+              5:45 - 6:30 PM
+            </div> 
+            <div className="class-text">
+              Barre Attack
+            </div>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11736765">Book Now</a></button>
+          </div>
+
           <h2>Wednesday</h2>
-          <p>9:15 - 10:00 AM | Activate</p>
-          <p>5:15 - 6:00 PM | Barre Attack</p>
+          <div className="class-container">
+            <div className="class-time">
+              9:15 - 10:00 AM
+            </div> 
+            <div className="class-text">
+              Activate
+            </div>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11734565">Book Now</a></button>
+          </div>
+          <div className="class-container">
+            <div className="class-time">
+              5:15 - 6:00 PM
+            </div> 
+            <div className="class-text">
+              Barre Attack
+            </div>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11734565">Book Now</a></button>
+          </div>
           <h2>Thursday</h2>
-          <p>4:45 - 5:30 PM | Barre Attack</p>
+          <div className="class-container">
+            <div className="class-time">
+              4:45 - 5:30 PM
+            </div> 
+            <div className="class-text">
+              Barre Attack
+            </div>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11734565">Book Now</a></button>
+          </div>
           <h2>Friday</h2>
-          <p>More Classes coming soon</p>
+          <div className="class-container">
+            <div>
+              .......Stay Tuned for more classes
+            </div>
+          </div>
+          <iframe src="https://app.acuityscheduling.com/schedule.php?owner=18460044" width="100%" height="800" frameBorder="0"></iframe><script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
           {close}
         </article>
 
