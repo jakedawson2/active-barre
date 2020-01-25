@@ -75,6 +75,16 @@ class Main extends React.Component {
             </div>
             <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=11736762">Book Now</a></button>
           </div>
+          <div className="class-container">
+            <div className="class-time">
+              5:45 - 6:30 PM
+            </div> 
+            <div className="class-text">
+              Barre Attack
+            </div>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=12120218
+">Book Now</a></button>
+          </div>
           <h2>Wednesday</h2>
           <div className="class-container">
             <div className="class-time">
@@ -106,9 +116,13 @@ class Main extends React.Component {
           </div>
           <h2>Friday</h2>
           <div className="class-container">
-            <div>
-              .......Stay Tuned for more classes
+            <div className="class-time">
+              9:15 - 10:00 AM
+            </div> 
+            <div className="class-text">
+              Mat Pilates
             </div>
+            <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=12671642">Book Now</a></button>
           </div>
           <iframe src="https://app.acuityscheduling.com/schedule.php?owner=18460044" width="100%" height="800" frameBorder="0"></iframe><script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
           {close}

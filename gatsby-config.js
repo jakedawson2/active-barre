@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Active Barre",
+    title: "Active Barre-Barre and Pilates Classes",
     author: "Jake Dawson",
     description: "Taree's first boutique studio offering a fusion of Barre, Pilates and fitness. Located in Pulteney street in the heart of Taree."
   },
