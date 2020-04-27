@@ -37,15 +37,20 @@ class Main extends React.Component {
         <h3>Activate - 45 mins - Suitable for all fitness levels</h3>
         <p>Is a great intro to the combination of barre and pilates mat work. With a flowing and fun format, it is great for strengthening the whole body, improving posture, balance and flexability.</p>
         <h3>Barre attack - 45 mins - Suitable for all fitness levels</h3>
-        <p>Is an energising and fast paced total body workout that fuses pilates and ballet barre exercises with short cardio intervals.</p>
+        <p>Is an energizing and fast paced total body workout that fuses pilates and ballet barre exercises with short cardio intervals.</p>
         <p>This class is excellent for overall fitness, torching calories and increasing energy levels.</p>
+        <h3>Mat Pilates - 45 mins - Suitable for all fitness levels</h3>
+        <p>The Pilates method of conditioning develops the body uniformly, corrects posture, restores vitality, invigorates the minds and elevates the spirit.</p>
+        <p>-Joseph Pilates</p>
+        <p>Mat Pilates is a small group class that combines traditional and modern Pilates exercises.</p>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Timetable</h2>
           {/* <span className="image main"><img src={pic03} alt="" /></span> */}
-          <h3 className="major center">Class cost: $15</h3>
+          <h3 className="major center">Coaching Session cost: $25</h3>
+          {/*
           <h2>Monday</h2>
           <div className="class-container">
             <div className="class-time">
@@ -122,8 +127,9 @@ class Main extends React.Component {
             <div className="class-text">
               Mat Pilates
             </div>
+            
             <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=12671642">Book Now</a></button>
-          </div>
+          </div>*/}
           <iframe src="https://app.acuityscheduling.com/schedule.php?owner=18460044" width="100%" height="800" frameBorder="0"></iframe><script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
           {close}
         </article>
