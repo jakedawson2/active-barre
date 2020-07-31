@@ -5,7 +5,7 @@ import Pics from './Gallery.js'
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import covidSafe from '../images/covid-safe.png'
 
 
 class Main extends React.Component {
@@ -49,7 +49,17 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Timetable</h2>
           {/* <span className="image main"><img src={pic03} alt="" /></span> */}
-          <h3 className="major center">Coaching Session cost: $25</h3>
+          <span className="image covid-safe"><img src={covidSafe} alt="" /></span> 
+          <h3 className="center">Before booking make sure you checkout our covid guidelines</h3>
+          <p>By booking a class you agree that</p>
+          <ul>
+            <li>If you are feeling unwell you will not attend classes.</li>
+            <li>You will not attend if you have visited any hotspots in the last 14 days.</li>
+            <li>You will not attend class if you have been in contact with anyone with covid</li>
+            <li>You will use the hand sanitiser on entry</li>
+            <li>Follow social distancing regulations</li>
+            <li>Bring your own Pilates mat, grip socks and water bottle</li>
+          </ul>
           {/*
           <h2>Monday</h2>
           <div className="class-container">
