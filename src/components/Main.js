@@ -140,7 +140,9 @@ class Main extends React.Component {
             
             <button><a href="https://app.acuityscheduling.com/schedule.php?owner=18460044&appointmentType=12671642">Book Now</a></button>
           </div>*/}
-          <iframe src="https://app.acuityscheduling.com/schedule.php?owner=18460044" width="100%" height="800" frameBorder="0"></iframe><script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
+          <br></br>
+          <br></br>
+          <h3>We are currently in the process of changin to a new booking system. For Any booking contact Wendie</h3>
           {close}
         </article>
 
