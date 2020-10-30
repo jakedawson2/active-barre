@@ -142,7 +142,8 @@ class Main extends React.Component {
           </div>*/}
           <br></br>
           <br></br>
-          <h3>We are currently in the process of changin to a new booking system. For Any booking contact Wendie</h3>
+          <h3>We are currently in the process of changing to a new booking system.</h3>
+          <h3>For Any booking contact Wendie</h3>
           {close}
         </article>
 
