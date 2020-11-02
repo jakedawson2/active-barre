@@ -142,8 +142,7 @@ class Main extends React.Component {
           </div>*/}
           <br></br>
           <br></br>
-          <h3>We are currently in the process of changing to a new booking system.</h3>
-          <h3>For Any booking contact Wendie</h3>
+          < iframe src="https://bookamat.co/embed/schedule/active-barre" width="100%" height="900" frameborder="0" ></iframe>
           {close}
         </article>
 
