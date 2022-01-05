@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import image1 from '../images/studio_gallery/IMG_1105.jpg'
-import image2 from '../images/studio_gallery/wendie-active-barre.gif'
-import image3 from '../images/studio_gallery/IMG_1104.jpg'
-import image4 from '../images/studio_gallery/Activebarre.jpg'
-import image5 from '../images/studio_gallery/activebarre-wendie.jpg'
+import image1 from '../images/studio_gallery/active-barre-20221.jpg';
+import image2 from '../images/studio_gallery/active-barre-20222.jpg';
+import image3 from '../images/studio_gallery/active-barre-20223.jpg';
+import image4 from '../images/studio_gallery/active-barre-20224.jpg';
+import image5 from '../images/studio_gallery/active-barre-20225.jpg';
 import image6 from '../images/studio_gallery/activebarre-ball-work.jpg'
 import image7 from '../images/studio_gallery/activebarre-studio.jpg'
 import image8 from '../images/studio_gallery/activebarre-studio2.jpg'
