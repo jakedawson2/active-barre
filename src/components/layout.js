@@ -6,21 +6,14 @@ import { StaticQuery, graphql } from 'gatsby'
 import '../assets/scss/main.scss'
 
 const Layout = ({ children, location }) => {
-
-  let content;
+  let content
 
   if (location && location.pathname === '/') {
-    content = (
-      <div>
-        {children}
-      </div>
-    )
+    content = <div>{children}</div>
   } else {
     content = (
       <div id="wrapper" className="page">
-        <div>
-          {children}
-        </div>
+        <div>{children}</div>
       </div>
     )
   }
@@ -41,8 +34,16 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Active Barre Studio is Taree\'s first boutique studio specialising in Barre attack. Classes taught by Wendie Dawson offer a unique fusion of Barre, Pilates and fitness.  Active Barre Studio is located on Pulteney street in the Heart of Taree' },
-              { name: 'keywords', content: 'active barre, Taree fitness, Dance studio, fitness class, Barre Attack, ' },
+              {
+                name: 'description',
+                content:
+                  "Active Barre Studio is Taree's first boutique studio specialising in Barre attack. Classes taught by Wendie Dawson offer a unique fusion of Barre, Pilates and fitness.  Active Barre Studio is located on Victoria street in the Heart of Taree",
+              },
+              {
+                name: 'keywords',
+                content:
+                  'active barre, Taree fitness, Dance studio, fitness class, Barre Attack, Pilates',
+              },
             ]}
           >
             <html lang="en" />
