@@ -12,11 +12,11 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Active Barre Studio</h1>
-        <h4>BARRE | PILATES | CARDIO</h4>
+        <h4>BARRE | PILATES | REFORMER</h4>
         <h3>Suite 1 216 Victoria Street Taree NSW</h3>
         <p>
           Taree's first boutique studio offering a fusion of Barre, Pilates and
-          fitness.
+          Reformer.
         </p>
       </div>
     </div>

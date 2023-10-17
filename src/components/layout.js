@@ -37,12 +37,12 @@ const Layout = ({ children, location }) => {
               {
                 name: 'description',
                 content:
-                  "Active Barre Studio is Taree's first boutique studio specialising in Barre attack. Classes taught by Wendie Dawson offer a unique fusion of Barre, Pilates and fitness.  Active Barre Studio is located on Victoria street in the Heart of Taree",
+                  "Active Barre Studio is Taree's first boutique studio specialising in Barre attack. Classes taught by Wendie Dawson offer a unique fusion of Barre, Pilates and Reformer.  Active Barre Studio is located on Victoria street in the Heart of Taree",
               },
               {
                 name: 'keywords',
                 content:
-                  'active barre, Taree fitness, Dance studio, fitness class, Barre Attack, Pilates',
+                  'active barre, Taree fitness, Dance studio, fitness class, Barre Attack, Pilates, Reformer, Barre, Barre class, Barre studio, Barre',
               },
             ]}
           >

@@ -77,13 +77,13 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>At Active Barre studio we offer the following classes:</p>
-          <h3>Activate - 45 mins - Suitable for all fitness levels</h3>
+          <h3>Activate Barre- 45 mins - Suitable for all fitness levels</h3>
           <p>
             Is a great intro to the combination of barre and pilates mat work.
             With a flowing and fun format, it is great for strengthening the
             whole body, improving posture, balance and flexability.
           </p>
-          <h3>Barre attack - 45 mins - Suitable for all fitness levels</h3>
+          <h3>Reformer Classes - 45 mins - Suitable for all fitness levels</h3>
           <p>
             Is an energizing and fast paced total body workout that fuses
             pilates and ballet barre exercises with short cardio intervals.
