@@ -5,9 +5,15 @@ import Pics from './Gallery.js'
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import covidSafe from '../images/covid-safe.png'
 
 class Main extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      pricingOpen: false,
+      refPriceOpen: false,
+    }
+  }
   render() {
     let close = (
       <div
@@ -85,12 +91,13 @@ class Main extends React.Component {
           </p>
           <h3>Reformer Classes - 45 mins - Suitable for all fitness levels</h3>
           <p>
-            Is an energizing and fast paced total body workout that fuses
-            pilates and ballet barre exercises with short cardio intervals.
+            This is the ideal feel good class. It is a small group class (max 4)
+            focusing on imporoving muscle tone, posture and performance in the
+            whole body.
           </p>
           <p>
-            This class is excellent for overall fitness, torching calories and
-            increasing energy levels.
+            Not suitable in the 2nd and 3rd trimester of pregnancy. Contact for
+            pregnancy safe options.
           </p>
           <h3>Mat Pilates - 45 mins - Suitable for all fitness levels</h3>
           <p>
@@ -128,7 +135,20 @@ class Main extends React.Component {
               purchase)
             </p>
           </div>
-
+          <h3>Reformer Pricing</h3>
+          <div>
+            <p>
+              <span>1 Class Pass</span> - $30 (valid for 1 month from purchase)
+            </p>
+            <p>
+              <span>4 Class Pass</span> - $100 (valid for 3 months from
+              purchase)
+            </p>
+            {/* <p>
+              <span>10 Class Pass</span> - $150 (valid for 6 months from
+              purchase)
+            </p> */}
+          </div>
           {/* <span className="image covid-safe"><img src={covidSafe} alt="" /></span> 
           <h3 className="center">Before booking make sure you checkout our covid guidelines</h3>
           <p>By booking a class you agree that</p>
@@ -225,6 +245,7 @@ class Main extends React.Component {
           <br></br>
           <iframe
             src="https://bookamat.co/embed/schedule/active-barre"
+            title="Active Barre Booking"
             width="100%"
             height="900"
             frameborder="0"
