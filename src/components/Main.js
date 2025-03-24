@@ -125,13 +125,13 @@ class Main extends React.Component {
           <h3>Pricing</h3>
           <div>
             <p>
-              <span>1 Class Pass</span> - $18 (valid for 1 month from purchase)
+              <span>1 Class Pass</span> - $20 (valid for 1 month from purchase)
             </p>
             <p>
-              <span>5 Class Pass</span> - $80 (valid for 3 months from purchase)
+              <span>5 Class Pass</span> - $95 (valid for 3 months from purchase)
             </p>
             <p>
-              <span>10 Class Pass</span> - $150 (valid for 6 months from
+              <span>10 Class Pass</span> - $180 (valid for 6 months from
               purchase)
             </p>
           </div>
