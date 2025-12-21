@@ -20,7 +20,7 @@ module.exports = {
     },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline', // Disabled due to Node compatibility issues on Netlify
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
