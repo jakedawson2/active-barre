@@ -243,13 +243,22 @@ class Main extends React.Component {
           </div>*/}
           <br></br>
           <br></br>
-          <iframe
-            src="https://bookamat.co/embed/schedule/active-barre"
-            title="Active Barre Booking"
-            width="100%"
-            height="900"
-            frameborder="0"
-          ></iframe>
+          <div style={{
+            background: 'white',
+            padding: '20px',
+            borderRadius: '8px',
+            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+            marginTop: '20px'
+          }}>
+            <iframe
+              src="https://bookamat.co/embed/active-barre"
+              title="Active Barre Booking"
+              width="100%"
+              height="900"
+              frameborder="0"
+              style={{ border: 'none', display: 'block' }}
+            ></iframe>
+          </div>
           {close}
         </article>
 
