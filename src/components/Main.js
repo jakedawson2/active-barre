@@ -5,6 +5,7 @@ import Pics from './Gallery.js'
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
+import { INTRO_OFFER, INTRO_OFFER_URL } from '../config'
 
 class Main extends React.Component {
   constructor(props) {
@@ -120,35 +121,22 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Timetable</h2>
+          <h2 className="major">Timetable and prices</h2>
           {/* <span className="image main"><img src={pic03} alt="" /></span> */}
-          <h3>Pricing</h3>
-          <div>
+          <div className="intro-callout">
+            <p className="offer-kicker">New to Active Barre?</p>
+            <h3>
+              Intro offer: {INTRO_OFFER.classes} classes for {INTRO_OFFER.price}
+            </h3>
             <p>
-              <span>1 Class Pass</span> - $20 (valid for 1 month from purchase)
+              Mix and match barre, mat Pilates and reformer. Valid{' '}
+              {INTRO_OFFER.valid}. For first-time clients.
             </p>
-            <p>
-              <span>5 Class Pass</span> - $95 (valid for 3 months from purchase)
-            </p>
-            <p>
-              <span>10 Class Pass</span> - $180 (valid for 6 months from
-              purchase)
-            </p>
+            <a href={INTRO_OFFER_URL} className="button special">
+              Claim intro offer
+            </a>
           </div>
-          <h3>Reformer Pricing</h3>
-          <div>
-            <p>
-              <span>1 Class Pass</span> - $30 (valid for 1 month from purchase)
-            </p>
-            <p>
-              <span>4 Class Pass</span> - $100 (valid for 3 months from
-              purchase)
-            </p>
-            {/* <p>
-              <span>10 Class Pass</span> - $150 (valid for 6 months from
-              purchase)
-            </p> */}
-          </div>
+          <h3>Book a class</h3>
           {/* <span className="image covid-safe"><img src={covidSafe} alt="" /></span> 
           <h3 className="center">Before booking make sure you checkout our covid guidelines</h3>
           <p>By booking a class you agree that</p>
@@ -255,9 +243,38 @@ class Main extends React.Component {
               title="Active Barre Booking"
               width="100%"
               height="900"
-              frameborder="0"
+              frameBorder="0"
               style={{ border: 'none', display: 'block' }}
             ></iframe>
+          </div>
+          <h3 className="prices-heading">Prices</h3>
+          <h4>Barre and Pilates</h4>
+          <div>
+            <p>
+              <span>1 Class Pass</span> - $20 (valid for 4 weeks from purchase)
+            </p>
+            <p>
+              <span>5 Class Pass</span> - $95 (valid for 3 months from purchase)
+            </p>
+            <p>
+              <span>10 Class Pass</span> - $180 (valid for 6 months from
+              purchase)
+            </p>
+          </div>
+          <h4>Reformer</h4>
+          <div>
+            <p>
+              <span>1 Reformer Session</span> - $30 (valid for 8 weeks from
+              first class)
+            </p>
+            <p>
+              <span>4 Reformer Sessions</span> - $100 (valid for 12 weeks from
+              first class)
+            </p>
+            <p>
+              <span>5 Reformer Sessions</span> - $125 (valid for 3 months from
+              first class)
+            </p>
           </div>
           {close}
         </article>
