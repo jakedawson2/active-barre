@@ -136,6 +136,22 @@
 			text-align: center;
 		}
 
+		.intro-frame {
+			background: #ffffff;
+			border-radius: 8px;
+			padding: 20px;
+			margin-bottom: _size(element-margin);
+
+			iframe {
+				border: none;
+				display: block;
+			}
+
+			@include breakpoint(small) {
+				padding: 0;
+			}
+		}
+
 		@include breakpoint(small) {
 			.intro-hero h1 {
 				font-size: 2rem;
