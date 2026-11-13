@@ -1,7 +1,7 @@
-// Where the "Claim intro offer" buttons send people.
-// TODO: swap for the direct Bookamat link to the intro pack
-// (Bookamat > Packages > 4 Classes for $40 > share link).
-export const INTRO_OFFER_URL = 'https://bookamat.co/share/active-barre'
+// Where the "Claim intro offer" buttons send people: the Bookamat page for
+// the 4 Classes for $40 intro pack.
+export const INTRO_OFFER_URL =
+  'https://bookamat.co/share/5f767357-29ed-463a-8eea-95409e2ba1e1/book/pack/18250'
 
 export const INTRO_OFFER = {
   price: '$40',
