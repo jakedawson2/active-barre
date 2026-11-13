@@ -5,7 +5,7 @@ import Pics from './Gallery.js'
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import { INTRO_OFFER, INTRO_OFFER_URL } from '../config'
+import { INTRO_OFFER } from '../config'
 
 class Main extends React.Component {
   constructor(props) {
@@ -132,7 +132,7 @@ class Main extends React.Component {
               Mix and match barre, mat Pilates and reformer. Valid{' '}
               {INTRO_OFFER.valid}. For first-time clients.
             </p>
-            <a href={INTRO_OFFER_URL} className="button special">
+            <a href="/intro#claim" className="button special">
               Claim intro offer
             </a>
           </div>

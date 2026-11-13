@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import { INTRO_OFFER, INTRO_OFFER_URL } from '../config'
+import { INTRO_OFFER, INTRO_OFFER_EMBED_URL } from '../config'
 import logo from '../images/logo.png'
 import hero from '../images/studio_gallery/activebarre-studio.jpg'
 import barre from '../images/studio_gallery/activebarre-ball-work.jpg'
@@ -13,7 +13,7 @@ const title = `Intro offer: ${INTRO_OFFER.classes} classes for ${INTRO_OFFER.pri
 const description = `New to Active Barre? Try ${INTRO_OFFER.classes} classes for ${INTRO_OFFER.price}: barre, mat Pilates and reformer at our boutique studio on Victoria Street, Taree.`
 
 const ClaimButton = () => (
-  <a href={INTRO_OFFER_URL} className="button special">
+  <a href="#claim" className="button special">
     Claim intro offer
   </a>
 )
@@ -95,9 +95,19 @@ const IntroPage = ({ location }) => (
         </ul>
       </section>
 
-      <section className="intro-cta">
-        <ClaimButton />
-        <p>
+      <section id="claim" className="intro-claim">
+        <h2 className="major">Claim your intro offer</h2>
+        <div className="intro-frame">
+          <iframe
+            src={INTRO_OFFER_EMBED_URL}
+            title="Buy the Active Barre intro offer"
+            width="100%"
+            height="900"
+            frameBorder="0"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <p className="intro-cta">
           <Link to="/#timetable">See the timetable</Link>
         </p>
       </section>
