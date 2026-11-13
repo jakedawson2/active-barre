@@ -28,7 +28,9 @@ class IndexPage extends React.Component {
     document.addEventListener('mousedown', this.handleClickOutside);
     // Links like /#timetable open the timetable panel straight away.
     if (window.location.hash === '#timetable') {
-      this.timetableTimeoutId = setTimeout(() => this.handleOpenArticle('about'), 400);
+      this.timetableTimeoutId = setTimeout(() => {
+        if (!this.state.isArticleVisible) this.handleOpenArticle('about');
+      }, 400);
     }
   }
 

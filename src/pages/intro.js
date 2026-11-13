@@ -56,7 +56,7 @@ const IntroPage = ({ location }) => (
           </li>
           <li>Valid {INTRO_OFFER.valid}</li>
           <li>For first-time clients</li>
-          <li>Small classes: up to 10 on the mat, 5 on the reformer</li>
+          <li>Small classes, with a maximum of 5 on the reformer</li>
         </ul>
       </section>
 
@@ -67,7 +67,7 @@ const IntroPage = ({ location }) => (
           </span>
           <h3>Barre</h3>
           <p>
-            A flowing, fun mix of ballet-style barre work and Pilates. Builds
+            A flowing, fun mix of barre and Pilates mat work. Builds
             strength, posture, balance and flexibility. All fitness levels.
           </p>
         </div>

@@ -130,7 +130,7 @@ class Main extends React.Component {
             </h3>
             <p>
               Mix and match barre, mat Pilates and reformer. Valid{' '}
-              {INTRO_OFFER.valid}. First visit only.
+              {INTRO_OFFER.valid}. For first-time clients.
             </p>
             <a href={INTRO_OFFER_URL} className="button special">
               Claim intro offer
